@@ -1,0 +1,21 @@
+{
+  "name": "module-ts-startup",
+  "version": "0.0.1",
+  "description": "NodeJS module start-up using TypeScript.",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "./node_modules/.bin/tsc",
+    "build:live": "./node_modules/.bin/tsc -w",
+    "clean-up":"rm -rf lib/* && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.12",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {}
+}
