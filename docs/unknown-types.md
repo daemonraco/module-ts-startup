@@ -27,7 +27,7 @@ yourself.
 ## Solution
 First of all, _don't panic_, create a file called `unirest.d.ts` inside `src/declarations/`
 this this content:
-```js
+```ts
 declare module 'unirest';
 ```
 Then go back to your class and add this at the top:

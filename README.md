@@ -25,6 +25,7 @@ directory and rebuild:
 ## Tips
 Here you have a few docs that can help you start and solve some issues:
 * [Unknown Types](docs/unknown-types.md)
+* [Using `npm link`](docs/npm-link.md)
 
 ## Licence
 MIT &copy; [Alejandro Dario Simi](http://daemonraco.com)
